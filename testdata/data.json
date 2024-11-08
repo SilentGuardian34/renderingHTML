@@ -1,0 +1,667 @@
+{
+  "subjects": [
+    {
+      "idnumber": "e783b2ec-d72f-4b3c-bd98-9e3198b931e5",
+      "name": "ПРОЕКТИРОВАНИЕ ЧЕЛ.-МАШ.ВЗАИМОДЕЙСТВИЯ"
+    },
+    {
+      "idnumber": "f5e0c46e-85f7-47b7-b2ec-5d6e42dbb4de",
+      "name": "ОСНОВЫ МАТ.МОДЕЛ.И АД"
+    },
+    {
+      "idnumber": "8443bfdc-3c51-4c9e-a889-be1895dd78b8",
+      "name": "ОБЪЕКТНО-ОРИЕНТИРОВАННЫЙ АНАЛИЗ И ПРОГРАММИРОВАНИЕ"
+    },
+    {
+      "idnumber": "9f75e2b6-82fe-4159-b2a5-23a35fa1869b",
+      "name": "СЕТИ И ТЕЛЕ-КОММУН."
+    },
+    {
+      "idnumber": "afcf8ea0-9cfc-4b93-a89e-727cc688c22c",
+      "name": "ТЕХНОЛОГИИ  РАЗРАБОТКИ ПИС"
+    },
+    {
+      "idnumber": "42281390-c8b2-41e8-998e-da79076da104",
+      "name": "РАЗРАБОТКА И АНАЛИЗ ТРЕБОВАНИЙ К ПО"
+    },
+    {
+      "idnumber": "e30dd16d-69e5-4993-83e6-974115033f91",
+      "name": "МОДЕЛИРОВАНИЕ ПО"
+    },
+    {
+      "idnumber": "adac9cd1-3275-4d4b-a8f0-e4600381ffb6",
+      "name": "ФИЗИЧЕСКАЯ КУЛЬТУРА"
+    }
+  ],
+
+
+  "event_kinds": [
+    {
+      "idnumber": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "name": "Лабораторное занятие"
+    },
+    {
+      "idnumber": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "name": "Практика"
+    },
+    {
+      "idnumber": "d9b3a0c6-54d8-4022-a233-83a014aba9d7",
+      "name": "Лекция"
+    }
+  ],
+
+
+  "time_slots": [
+    {
+      "idnumber": "1b893f7a-cb86-4cde-9879-fdeb2d0fc402",
+      "start_time": "08:30",
+      "end_time": "10:00"
+    },
+    {
+      "idnumber": "9860f406-dd8b-4189-bd0a-07dd73d82675",
+      "start_time": "10:10",
+      "end_time": "11:40"
+    },
+    {
+      "idnumber": "b92e0b9d-df57-4f0f-a598-75b2f93f442b",
+      "start_time": "11:50",
+      "end_time": "13:20"
+    },
+    {
+      "idnumber": "f15e4374-2683-4abf-b7e0-2d6f6e36c109",
+      "start_time": "13:40",
+      "end_time": "15:10"
+    },
+    {
+      "idnumber": "b8822f72-4df9-4047-8448-b824923ad201",
+      "start_time": "15:20",
+      "end_time": "16:50"
+    },
+    {
+      "idnumber": "f9c41ea4-e1bd-48f6-86b3-2936f7e02c16",
+      "start_time": "17:00",
+      "end_time": "18:30"
+    },
+    {
+      "idnumber": "3e3b22a7-df68-4ca9-ac5a-0c7fc25cb094",
+      "start_time": "08:30",
+      "end_time": "11:40"
+    },
+    {
+      "idnumber": "db194070-ee0c-41a4-a55d-91f856946387",
+      "start_time": "10:10",
+      "end_time": "13:20"
+    },
+    {
+      "idnumber": "402eea87-4af6-4cc0-b58c-0315cc663d7b",
+      "start_time": "11:50",
+      "end_time": "15:10"
+    },
+    {
+      "idnumber": "200f44dd-07e9-49ff-b28a-d4d45f7d91bf",
+      "start_time": "13:40",
+      "end_time": "16:50"
+    },
+    {
+      "idnumber": "9084cd14-729f-4be2-ba25-c79033a55003",
+      "start_time": "15:20",
+      "end_time": "18:30"
+    }
+  ],
+
+
+  "event_places": [
+    {
+      "idnumber": "a5f4e836-5eec-404b-9078-b3801e64d200",
+      "building": "В",
+      "room": "Зал волейбола"
+    },
+    {
+      "idnumber": "ebb2d4a1-4a84-4b55-85a0-f4c35349ab66",
+      "building": "В",
+      "room": "501"
+    },
+    {
+      "idnumber": "26099da9-78a9-4d0b-8982-26de2b1af338",
+      "building": "В",
+      "room": "802"
+    },
+    {
+      "idnumber": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+      "building": "В",
+      "room": "902а"
+    },
+    {
+      "idnumber": "c67e18cb-92b9-45d0-bfd1-4cce17c723d2",
+      "building": "В",
+      "room": "902б"
+    },
+    {
+      "idnumber": "9a2d6609-1d99-4ad1-bcbf-bb3b1dbdd680",
+      "building": "В",
+      "room": "902в"
+    },
+    {
+      "idnumber": "80cf4142-775a-4725-a60a-32afb880be65",
+      "building": "В",
+      "room": "903"
+    },
+    {
+      "idnumber": "69b7cfd4-b460-4c07-8a59-6b04d6cef76d",
+      "building": "В",
+      "room": "908"
+    }
+  ],
+
+
+  "event_participants": [
+    {
+      "idnumber": "2a6fad8c-d525-4675-89fe-9585abf45ec9",
+      "name": "Ломакин",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "962fb535-7781-41d6-a547-01eac7a4e214",
+      "name": "Денисов",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "59e2e959-7796-42a6-8a3f-36b56f7dab7d",
+      "name": "Цыганков В.А.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "6b47bf90-165f-4a26-ae0d-a07cefd36587",
+      "name": "Аникин А.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "783d320f-9279-41fa-8433-d29910e488e7",
+      "name": "Сурнина С.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "cda5921d-0055-4a2b-8fcb-a443eb5676f9",
+      "name": "Барашков С.А.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "709bbc34-131c-4212-b3d8-619750008636",
+      "name": "Горбунов А.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "8a0e34b8-e969-461b-8b22-1506ee9ab611",
+      "name": "Сибирный",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "83808b82-bae5-4ec2-9042-299236048b2c",
+      "name": "Зубков А.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "9695822a-1542-42a6-9c56-7ffc0bcd4515",
+      "name": "Качанов",
+      "role": "teacher"
+    },    
+    {
+      "idnumber": "4a4b9b81-ef97-4577-b5c3-9d6c7b521872",
+      "name": "Донская А.Р.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "1406d9dd-ea51-42ad-a7ca-8f21c144a0f9",
+      "name": "Катышев",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "12896263-d968-48df-a3f1-c1acbca46c2e",
+      "name": "Кулюкин",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "2b84e4ef-fcf9-471c-b021-276a9c0a26b0",
+      "name": "Литовкин Д.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "8358178c-19c8-449b-b0f4-e062cb38f725",
+      "name": "Быков Д.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "3434c8da-c4c2-4c5a-9613-88b5e724f62d",
+      "name": "Кузнецова А.С.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1",
+      "name": "Гилка В.В.",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+      "name": "ПрИн-366",
+      "role": "student",
+      "is_group": true
+    },
+    {
+      "idnumber": "9eea0922-5222-4500-9a1c-d724d3e27006",
+      "name": "ПрИн-367",
+      "role": "student",
+      "is_group": true
+    },
+    {
+      "idnumber": "fb53cd73-549d-4c1f-b41a-b0cf465c5a55",
+      "name": "ПрИн-368",
+      "role": "student",
+      "is_group": true
+    }
+  ],
+
+
+  "schedules": [
+    {
+      "idnumber": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "faculty": "ФЭВТ",
+      "scope": "bachelor",
+      "course": 3,
+      "semester": 5,
+      "years": "2024-2025"
+    }
+  ],
+
+
+  "events": [
+    {
+      "idnumber": "539d4d47-b948-4f55-8e91-98cf8f3ff73d",
+      "subject_id": "e783b2ec-d72f-4b3c-bd98-9e3198b931e5",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "3434c8da-c4c2-4c5a-9613-88b5e724f62d",
+        "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "2c569aa9-568d-43ff-8767-5d87b36c64e8",
+          "place_id": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+          "date": "2024-11-04",
+          "slot_id": "402eea87-4af6-4cc0-b58c-0315cc663d7b"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "51a31bb5-bfb4-496d-b2dc-cf8cd862f228",
+      "subject_id": "f5e0c46e-85f7-47b7-b2ec-5d6e42dbb4de",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "4a4b9b81-ef97-4577-b5c3-9d6c7b521872",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "2bc42e6a-7f6a-497c-a094-d10d7044d9ac",
+          "place_id": "9a2d6609-1d99-4ad1-bcbf-bb3b1dbdd680",
+          "date": "2024-11-04",
+          "slot_id": "b8822f72-4df9-4047-8448-b824923ad201"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "d03b3003-110b-4c14-b3f6-bf3a6b0a15c4",
+      "subject_id": "8443bfdc-3c51-4c9e-a889-be1895dd78b8",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "2b84e4ef-fcf9-471c-b021-276a9c0a26b0",
+        "9eea0922-5222-4500-9a1c-d724d3e27006"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "f06a4651-232e-4158-a2e6-0758af27a89d",
+          "place_id": "69b7cfd4-b460-4c07-8a59-6b04d6cef76d",
+          "date": "2024-11-04",
+          "slot_id": "3e3b22a7-df68-4ca9-ac5a-0c7fc25cb094"
+        },
+        {
+          "idnumber": "f2c43086-dbe7-46d8-b05b-bb6249b956f1",
+          "place_id": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+          "date": "2024-11-08",
+          "slot_id": "9084cd14-729f-4be2-ba25-c79033a55003"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "b396da98-f1b3-4726-b509-14c7fbcaed36",
+      "subject_id": "8443bfdc-3c51-4c9e-a889-be1895dd78b8",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "1406d9dd-ea51-42ad-a7ca-8f21c144a0f9",
+        "12896263-d968-48df-a3f1-c1acbca46c2e",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "986991c0-62db-4ad5-9476-03b1960ea09e",
+          "place_id": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+          "date": "2024-11-05",
+          "slot_id": "3e3b22a7-df68-4ca9-ac5a-0c7fc25cb094"
+        },
+        {
+          "idnumber": "9e40c1a6-2d80-4e9f-bbc5-f5dac8ab5cf1",
+          "place_id": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+          "date": "2024-11-07",
+          "slot_id": "3e3b22a7-df68-4ca9-ac5a-0c7fc25cb094"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "9e944296-713c-4918-ab51-eed41cc26278",
+      "subject_id": "e783b2ec-d72f-4b3c-bd98-9e3198b931e5",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1",
+        "9eea0922-5222-4500-9a1c-d724d3e27006"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "699ad294-b5c0-4ac4-9fef-25a911a3ff27",
+          "place_id": "9a2d6609-1d99-4ad1-bcbf-bb3b1dbdd680",
+          "date": "2024-11-05",
+          "slot_id": "3e3b22a7-df68-4ca9-ac5a-0c7fc25cb094"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "1201ebdc-6525-4db3-9329-d8ba73c4b8a6",
+      "subject_id": "8443bfdc-3c51-4c9e-a889-be1895dd78b8",
+      "kind_id": "d9b3a0c6-54d8-4022-a233-83a014aba9d7",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "2b84e4ef-fcf9-471c-b021-276a9c0a26b0",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+        "9eea0922-5222-4500-9a1c-d724d3e27006",
+        "fb53cd73-549d-4c1f-b41a-b0cf465c5a55"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "13122e37-a1b3-4df2-acde-61bf4c0ae9aa",
+          "place_id": "26099da9-78a9-4d0b-8982-26de2b1af338",
+          "date": "2024-11-05",
+          "slot_id": "b92e0b9d-df57-4f0f-a598-75b2f93f442b"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "b9651440-155c-41d7-9f3a-bd07461615f1",
+      "subject_id": "9f75e2b6-82fe-4159-b2a5-23a35fa1869b",
+      "kind_id": "d9b3a0c6-54d8-4022-a233-83a014aba9d7",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "8358178c-19c8-449b-b0f4-e062cb38f725",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+        "9eea0922-5222-4500-9a1c-d724d3e27006",
+        "fb53cd73-549d-4c1f-b41a-b0cf465c5a55"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "e37e6a14-9ffe-45bf-b5d3-a1f10e5ee3d3",
+          "place_id": "26099da9-78a9-4d0b-8982-26de2b1af338",
+          "date": "2024-11-05",
+          "slot_id": "f15e4374-2683-4abf-b7e0-2d6f6e36c109"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "75780bda-36dd-424a-8ae3-045a9dbfb156",
+      "subject_id": "afcf8ea0-9cfc-4b93-a89e-727cc688c22c",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "6b47bf90-165f-4a26-ae0d-a07cefd36587",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "d6f5f9af-e5fd-46ba-8ee1-c5b5d9a4b0a7",
+          "place_id": "80cf4142-775a-4725-a60a-32afb880be65",
+          "date": "2024-11-06",
+          "slot_id": "9860f406-dd8b-4189-bd0a-07dd73d82675"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "89948dca-ce14-4852-87a6-9a0ea9792056",
+      "subject_id": "afcf8ea0-9cfc-4b93-a89e-727cc688c22c",
+      "kind_id": "d9b3a0c6-54d8-4022-a233-83a014aba9d7",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "6b47bf90-165f-4a26-ae0d-a07cefd36587",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+        "9eea0922-5222-4500-9a1c-d724d3e27006",
+        "fb53cd73-549d-4c1f-b41a-b0cf465c5a55"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "77087178-95f0-44e1-afa2-33db4aa50707",
+          "place_id": "26099da9-78a9-4d0b-8982-26de2b1af338",
+          "date": "2024-11-06",
+          "slot_id": "b92e0b9d-df57-4f0f-a598-75b2f93f442b"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "06ecd4e8-bcd2-467f-a3b5-30343a7b8391",
+      "subject_id": "adac9cd1-3275-4d4b-a8f0-e4600381ffb6",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "783d320f-9279-41fa-8433-d29910e488e7",
+        "cda5921d-0055-4a2b-8fcb-a443eb5676f9",
+        "709bbc34-131c-4212-b3d8-619750008636",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+        "9eea0922-5222-4500-9a1c-d724d3e27006",
+        "fb53cd73-549d-4c1f-b41a-b0cf465c5a55"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "d9ff6b26-165a-419f-942f-7309551bd533",
+          "place_id": "a5f4e836-5eec-404b-9078-b3801e64d200",
+          "date": "2024-11-06",
+          "slot_id": "f15e4374-2683-4abf-b7e0-2d6f6e36c109"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "fcbc7e06-e68e-4625-b863-7eb8d37b0d4f",
+      "subject_id": "e783b2ec-d72f-4b3c-bd98-9e3198b931e5",
+      "kind_id": "d9b3a0c6-54d8-4022-a233-83a014aba9d7",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+        "9eea0922-5222-4500-9a1c-d724d3e27006",
+        "fb53cd73-549d-4c1f-b41a-b0cf465c5a55"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "fe43642d-2314-485d-b675-a0d3f205faea",
+          "place_id": "26099da9-78a9-4d0b-8982-26de2b1af338",
+          "date": "2024-11-06",
+          "slot_id": "b8822f72-4df9-4047-8448-b824923ad201"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "6d4b9551-a7f6-4c51-987f-667a60f35726",
+      "subject_id": "f5e0c46e-85f7-47b7-b2ec-5d6e42dbb4de",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "4a4b9b81-ef97-4577-b5c3-9d6c7b521872",
+        "9eea0922-5222-4500-9a1c-d724d3e27006"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "6cbe8d70-4e8b-4ea2-8f55-9a3a292b0bcc",
+          "place_id": "c67e18cb-92b9-45d0-bfd1-4cce17c723d2",
+          "date": "2024-11-07",
+          "slot_id": "9860f406-dd8b-4189-bd0a-07dd73d82675"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "94507a6e-a028-48c7-84b4-2d0a1e883646",
+      "subject_id": "afcf8ea0-9cfc-4b93-a89e-727cc688c22c",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "962fb535-7781-41d6-a547-01eac7a4e214",
+        "9eea0922-5222-4500-9a1c-d724d3e27006"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "3243241d-c6c1-4f8f-8460-7c74feb95b32",
+          "place_id": "80cf4142-775a-4725-a60a-32afb880be65",
+          "date": "2024-11-07",
+          "slot_id": "402eea87-4af6-4cc0-b58c-0315cc663d7b"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "3a26ce7b-ed41-446f-b978-f7df365b0247",
+      "subject_id": "afcf8ea0-9cfc-4b93-a89e-727cc688c22c",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "6b47bf90-165f-4a26-ae0d-a07cefd36587",
+        "9eea0922-5222-4500-9a1c-d724d3e27006"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "ebda5a5d-637c-4d15-ac81-28c1ce5e58e1",
+          "place_id": "80cf4142-775a-4725-a60a-32afb880be65",
+          "date": "2024-11-07",
+          "slot_id": "b8822f72-4df9-4047-8448-b824923ad201"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "c4110380-8040-47f2-a5f2-9e40390723e3",
+      "subject_id": "f5e0c46e-85f7-47b7-b2ec-5d6e42dbb4de",
+      "kind_id": "d9b3a0c6-54d8-4022-a233-83a014aba9d7",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "4a4b9b81-ef97-4577-b5c3-9d6c7b521872",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+        "9eea0922-5222-4500-9a1c-d724d3e27006",
+        "fb53cd73-549d-4c1f-b41a-b0cf465c5a55"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "e8c1d256-f7a9-49c9-8f2d-38ab24c676c2",
+          "place_id": "26099da9-78a9-4d0b-8982-26de2b1af338",
+          "date": "2024-11-08",
+          "slot_id": "f15e4374-2683-4abf-b7e0-2d6f6e36c109"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "a8e7a847-9957-4db6-a816-e4977216b47d",
+      "subject_id": "f5e0c46e-85f7-47b7-b2ec-5d6e42dbb4de",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "4a4b9b81-ef97-4577-b5c3-9d6c7b521872",
+        "8a0e34b8-e969-461b-8b22-1506ee9ab611",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "629adcdb-0874-47c1-8a90-a45734fe25d6",
+          "place_id": "69b7cfd4-b460-4c07-8a59-6b04d6cef76d",
+          "date": "2024-11-08",
+          "slot_id": "9084cd14-729f-4be2-ba25-c79033a55003"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "c8c5bea2-eec1-4ff2-b8c8-dc797bfb41b7",
+      "subject_id": "42281390-c8b2-41e8-998e-da79076da104",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "83808b82-bae5-4ec2-9042-299236048b2c",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "3c335dad-140c-4d31-bedd-22540a13ba51",
+          "place_id": "69b7cfd4-b460-4c07-8a59-6b04d6cef76d",
+          "date": "2024-11-09",
+          "slot_id": "402eea87-4af6-4cc0-b58c-0315cc663d7b"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "455b29ad-2be2-4b40-a50e-7b769c21626a",
+      "subject_id": "e30dd16d-69e5-4993-83e6-974115033f91",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "9695822a-1542-42a6-9c56-7ffc0bcd4515",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "8df76867-7777-43c8-b09d-ff61f7231ba5",
+          "place_id": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+          "date": "2024-11-09",
+          "slot_id": "9084cd14-729f-4be2-ba25-c79033a55003"
+        }
+      ]
+    },
+
+    {
+      "idnumber": "8f350de2-5556-4774-8621-0e3eabdfd230",
+      "subject_id": "42281390-c8b2-41e8-998e-da79076da104",
+      "kind_id": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "83808b82-bae5-4ec2-9042-299236048b2c",
+        "9eea0922-5222-4500-9a1c-d724d3e27006"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "db00656e-a034-4bed-9b1f-1f34f1e303dc",
+          "place_id": "69b7cfd4-b460-4c07-8a59-6b04d6cef76d",
+          "date": "2024-11-09",
+          "slot_id": "9084cd14-729f-4be2-ba25-c79033a55003"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "subjects": [
+    {
+      "idnumber": "e783b2ec-d72f-4b3c-bd98-9e3198b931e5",
+      "name": "Алгоритмы и структуры данных"
+    },
+    {
+      "idnumber": "f5e0c46e-85f7-47b7-b2ec-5d6e42dbb4de",
+      "name": "Сети и системы связи"
+    },
+    {
+      "idnumber": "b8a2e6cb-98ef-4b84-bc2b-5b0f14a7ed54",
+      "name": "Программирование"
+    }
+  ],
+  "event_kinds": [
+    {
+      "idnumber": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "name": "Лекция"
+    },
+    {
+      "idnumber": "b403457e-2280-4de2-8d1a-837d902b3f9b",
+      "name": "Практика"
+    }
+  ],
+  "time_slots": [
+    {
+      "idnumber": "b92e0b9d-df57-4f0f-a598-75b2f93f442b",
+      "start_time": "08:30",
+      "end_time": "10:00"
+    },
+    {
+      "idnumber": "f15e4374-2683-4abf-b7e0-2d6f6e36c109",
+      "start_time": "10:15",
+      "end_time": "11:45"
+    },
+    {
+      "idnumber": "fac04e76-d59e-4690-bdf2-9b30843c9261",
+      "start_time": "12:00",
+      "end_time": "13:30"
+    }
+  ],
+  "event_places": [
+    {
+      "idnumber": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+      "building": "Гл. корпус",
+      "room": "Ауд. 215"
+    },
+    {
+      "idnumber": "9a2d6609-1d99-4ad1-bcbf-bb3b1dbdd680",
+      "building": "Гл. корпус",
+      "room": "Ауд. 314"
+    }
+  ],
+  "event_participants": [
+    {
+      "idnumber": "3434c8da-c4c2-4c5a-9613-88b5e724f62d",
+      "name": "Иванов Иван",
+      "role": "student"
+    },
+    {
+      "idnumber": "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1",
+      "name": "Петров Петр",
+      "role": "teacher"
+    },
+    {
+      "idnumber": "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d",
+      "name": "Группа Б-18-1",
+      "role": "student",
+      "is_group": true
+    },
+    {
+      "idnumber": "f5985d08-54cb-4744-bb7f-1c3a5b23f409",
+      "name": "Группа Б-19-1",
+      "role": "student"
+    }
+  ],
+  "schedules": [
+    {
+      "idnumber": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "faculty": "ФЭВТ",
+      "scope": "bachelor",
+      "course": 3,
+      "semester": 5,
+      "years": "2023-2024"
+    }
+  ],
+  "events": [
+    {
+      "idnumber": "539d4d47-b948-4f55-8e91-98cf8f3ff73d",
+      "subject_id": "e783b2ec-d72f-4b3c-bd98-9e3198b931e5",
+      "kind_id": "8d7e40f5-5dc7-4a25-919f-1351c5cb4d4e",
+      "schedule_id": "1b3e6117-d00b-467d-9e13-faa5b9f55df4",
+      "participants": [
+        "3434c8da-c4c2-4c5a-9613-88b5e724f62d",
+        "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1",
+        "0d1c584d-e609-49d9-8b68-f2b3a2ea2a0d"
+      ],
+      "holding_info": [
+        {
+          "idnumber": "2c569aa9-568d-43ff-8767-5d87b36c64e8",
+          "place_id": "073e319f-d29d-48d5-b579-1fbe69caa2e5",
+          "date": "2024-09-10",
+          "slot_id": "b92e0b9d-df57-4f0f-a598-75b2f93f442b"
+        },
+        {
+          "idnumber": "4e269aa9-568d-43ff-8767-5d87b36c64e8",
+          "place_id": "9a2d6609-1d99-4ad1-bcbf-bb3b1dbdd680",
+          "date": "2024-09-10",
+          "slot_id": "b92e0b9d-df57-4f0f-a598-75b2f93f442b"
+        }
+      ]
+    }
+  ]
+}
