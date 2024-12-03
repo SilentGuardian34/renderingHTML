@@ -26,4 +26,4 @@ class Command(BaseCommand):
                     # schedule_filtered = Filter.from_filter_type(FilterType.TEACHER, "e5c47ff1-7193-41f6-80a5-d0e3c97ec6f1").apply_to(schedule)
                     schedule_filtered = Filter.from_filter_type(FilterType.PLACE,"9a2d6609-1d99-4ad1-bcbf-bb3b1dbdd6").apply_to(schedule)
                     self.stdout.write("OK")
-        self.stdout.write(self.style.SUCCESS("Тестовые данные успешно загружены расперсены"))
+        self.stdout.write(self.style.SUCCESS("Тестовые данные успешно загружены и распарсены"))

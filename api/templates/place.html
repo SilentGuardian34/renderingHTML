@@ -19,9 +19,9 @@ td, th {
     {% for event in event_day.1 %}
     <tr>
         <td style="width:10%">{{event.holdings.0.time_slot.start_time}} {% if event.holdings.0.time_slot.end_time != null %}— {{event.holdings.0.time_slot.end_time}} {% endif %}</td>
-        <td style="width:10%">{{event.subject.name}}</td>
         <td style="width:10%">{% for teacher in event.teachers %}{{teacher}}<br>{% endfor %}</td>
-        <td >{{event.holdings.0.place.building}} {{event.holdings.0.place.room}}</td>
+        <td style="width:10%">{% for group in event.groups %}{{group}}<br>{% endfor %}</td>
+        <td >{{event.subject.name}}</td>
     </tr>
     {% endfor %}
 </table>

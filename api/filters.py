@@ -18,10 +18,10 @@ class _InnerFilterType(Enum):
 
 
 class Filter:
-    def __init__(self, is_from_daterange: bool, start_time: date = date(1970, 1, 1), end_time: date = date(1970, 1, 1),
+    def __init__(self, is_from_daterange: bool, start_time: date = None, end_time: date = None,
                  filter_type: FilterType = FilterType.TEACHER, idnumber: str = ""):
         if is_from_daterange:
-            if start_time > end_time:
+            if start_time is not None and end_time is not None and start_time > end_time:
                 raise ValueError("Начальная дата больше конечной")
 
             self.filter_type = _InnerFilterType.DATERANGE
@@ -45,7 +45,9 @@ class Filter:
             # Filter holdings of each event
             for event in schedule_copy.events:
                 event.holdings = [holding for holding in event.holdings if
-                                  self.start_time <= holding.event_date <= self.end_time]
+                                  (self.start_time <= holding.event_date if self.start_time else True)
+                                  and
+                                  (holding.event_date <= self.end_time if self.end_time else True)]
             # Remove events that doesn't have any holdings
             schedule_copy.events = [event for event in schedule_copy.events if event.holdings]
         elif self.filter_type == _InnerFilterType.GROUP:

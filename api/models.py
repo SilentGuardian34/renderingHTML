@@ -125,13 +125,16 @@ class EventHolding(CommonModel):
     time_slot: TimeSlot = Field(title="Временной интервал")
 
     def __repr__(self):
-        return f"{self.place}, {self.event_date.strftime("%Y-%m-%d")}, {self.time_slot}"
+        date_str = self.event_date.strftime("%Y-%m-%d")
+        return f"{self.place}, {date_str}, {self.time_slot}"
 
 
 class Event(CommonModel):
     kind: EventKind = Field(title="Тип")
     subject: Subject = Field(title="Предмет")
     participants: List[EventParticipant] = Field(default=[], title="Участники")
+    teachers: List[str] = Field(default=[], title="Преподаватели")
+    groups: List[str] = Field(default=[], title="Группы")
     holdings: List[EventHolding] = Field(default=[], title="Дата, место и время")
     schedule: Schedule = Field(title="Связанное расписание")
 

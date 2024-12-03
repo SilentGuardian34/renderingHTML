@@ -6,6 +6,5 @@ from api.views import (
 urlpatterns = [
     path("render/<schedule_type>/<uuid>/", ScheduleRenderView.as_view()),
     path("render/<schedule_type>/<uuid>/<start_time>/", ScheduleRenderView.as_view()),
-    path("render/<schedule_type>/<uuid>/<end_time>/", ScheduleRenderView.as_view()),
     path("render/<schedule_type>/<uuid>/<start_time>/<end_time>/", ScheduleRenderView.as_view()),
 ]
