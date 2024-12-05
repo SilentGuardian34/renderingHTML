@@ -22,17 +22,18 @@ class ScheduleRenderView(TemplateView):
         self.error_str = None
 
     def get(self, request, *args, **kwargs):
-        self.schedule_type = self.kwargs['schedule_type']
-        self.uuid = self.kwargs['uuid']
-        self.start_time = self.kwargs.get('start_time')
-        self.end_time = self.kwargs.get('end_time')
+        self.schedule_type = request.GET.get('schedule_type', None)
+        self.uuid = request.GET.get('uuid', None)
+        self.start_time = request.GET.get('start_time', None)
+        self.end_time = request.GET.get('end_time', None)
+        self.hide_columns = request.GET.get('hide_columns', None)
 
         # Get and parse schedule from the core
         self.data = self.get_schedule_from_core()
         # Create data for UI
         for event_day in self.data:
-            event_day.append(event_day[0].strftime('%A')) # Day of week
-            event_day[0] = str(event_day[0])  # Date
+            event_day.append(event_day[0][0].strftime('%A')) # Day of week
+            event_day.append(', '.join([str(x) for x in event_day[0]]))  # Date
             for event in event_day[1]:
                 event.teachers = [x.name for x in event.participants if x.role == EventParticipant.Role.TEACHER]
                 event.groups = [x.name for x in event.participants if x.role == EventParticipant.Role.STUDENT and x.is_group]
@@ -72,8 +73,23 @@ class ScheduleRenderView(TemplateView):
         # Group by date
         events_grouped = groupby(schedule_filtered.events,
                                             lambda x: x.holdings[0].event_date)
-        
-        return [[key, [item for item in data]] for (key, data) in events_grouped]
+        events_grouped = [[[key], [item for item in data]] for (key, data) in events_grouped]
+
+        # Group similar days
+        for idx_curr, event_day in enumerate(events_grouped):
+            if not event_day[0]:
+                continue
+            for idx_next in range(idx_curr+1, len(events_grouped)):
+                if not events_grouped[idx_next][0]:
+                    continue
+                if set([x.idnumber for x in events_grouped[idx_next][1]]) == set([x.idnumber for x in event_day[1]]) and events_grouped[idx_next][0][0].weekday() == event_day[0][0].weekday():
+                    event_day[0].extend(events_grouped[idx_next][0])
+                    events_grouped[idx_next][0].clear()
+
+        events_grouped = [x for x in events_grouped if x[0]]
+
+
+        return events_grouped
             
 
     def get_template_names(self):
@@ -93,6 +109,9 @@ class ScheduleRenderView(TemplateView):
         context = super(ScheduleRenderView, self).get_context_data(**kwargs)
         if self.error_str is not None:
             context['error_str'] = self.error_str
+
+        if self.hide_columns is not None:
+            context['hide_columns'] = [x for x in self.hide_columns.split(',')]
 
         if self.schedule_type == FilterType.GROUP.value:
             context['data'] = self.data

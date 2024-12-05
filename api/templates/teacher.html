@@ -20,17 +20,25 @@ table, td{
 <table border="1" style="border-bottom: hidden">
     <tr>
         <th colspan="2">{{event_day.2}}</th>
-        <th >{{event_day.0}}</th>
+        <th >{{event_day.3}}</th>
     </tr>
 </table>
 
 <table border="1" style="width:100%">
     {% for event in event_day.1 %}
     <tr>
+        {% if not '0' in hide_columns %}
         <td style="width:10%">{{event.holdings.0.time_slot.start_time}} {% if event.holdings.0.time_slot.end_time != null %}— {{event.holdings.0.time_slot.end_time}} {% endif %}</td>
+        {% endif %}
+        {% if not '1' in hide_columns %}
         <td style="width:10%">{{event.subject.name}}</td>
+        {% endif %}
+        {% if not '2' in hide_columns %}
         <td style="width:10%">{% for group in event.groups %}{{group}}<br>{% endfor %}</td>
+        {% endif %}
+        {% if not '3' in hide_columns %}
         <td >{{event.holdings.0.place.building}} {{event.holdings.0.place.room}}</td>
+        {% endif %}
     </tr>
     {% endfor %}
 </table>
